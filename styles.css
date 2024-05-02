@@ -1,12 +1,15 @@
 body {
     padding-top: 1rem;
     font-family: Arial, sans-serif;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .top {
-    width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-left: -6rem;
+    margin-right: -6rem;
 }
 
 .logo1 {
@@ -20,6 +23,11 @@ body {
 .logo2 {
     padding: 0 1rem 1rem 1rem;
     float: right;
+}
+
+.navbar {
+    margin-left: -6rem;
+    margin-right: -6rem;
 }
 
 #navbarNavDropdown {
@@ -42,9 +50,10 @@ body {
     width: 100%;
 }
 
-.container {
+.container-fluid {
     margin-top: 0rem;
-    width: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 
 .head {
@@ -94,24 +103,32 @@ body {
     height: 280px;
 }
 
+.row {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.row>* {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
 .px-2rem {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.px-0-75rem {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-}
-
-.mx-6rem {
-    margin-left: 6rem;
-    margin-right: 6rem;
-}
-
 .mx-2rem{
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.pr-0-75rem {
+    padding-right: 0.75rem;
+}
+
+.pl-0-75rem {
+    padding-left: 0.75rem;
 }
 
 ul {
@@ -130,3 +147,52 @@ footer {
     text-decoration: none; 
     margin-right: 1rem;
 } 
+
+@media (max-width: 978px) {
+    body {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+    .top {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+
+    .navbar {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+
+    .row>* {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .container-fluid {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    
+    .px-2rem {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+
+    .mx-2rem {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .pr-0-75rem {
+        padding-right: 0.125rem;
+    }
+    
+    .pl-0-75rem {
+        padding-left: 0.125rem;
+    }
+
+    footer {
+        padding: 1rem 0.25rem;
+    }
+}
