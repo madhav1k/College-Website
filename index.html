@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="d-flex top">
+            <img src="logo.png" class="logo1" width="100">
+            <h1 class="name" style="font-family: Georgia, 'Times New Roman', Times, serif;">Govt. Vivekananda P.G. College, Maihar</h1>
+            <img src="logo.png" class="logo2" width="100">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Departments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Training & Placement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Examinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Syllabus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Office</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NCC, Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Admissions & Enrollment</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Media Coverage</a></li>
+                                <li><a class="dropdown-item" href="#">New Photo Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Old Photo Gallery</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+          
+
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center w-100">
+            <button type="button" class="btn modal-btn btn-success" data-bs-toggle="modal" data-bs-target="#latestNewsModal">
+                ✉️ Latest News
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="latestNewsModal" tabindex="-1" aria-labelledby="latestNewsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="latestNewsModalLabel">Latest News</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- Carousel -->
+        <div class="caro-outer">
+            <div class="caro mx-6rem px-0-75rem">
+                <div id="carouselIndicators1" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="firstslide.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="secondslide.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="thirdslide.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mx-6rem">
+            <div class="row row-cols-2">
+                <div class="col">
+                    <div class="bg-warning head">
+                        Latest Updates
+                    </div>
+                    <ul class="scrollbox mx-2rem" style="list-style-type: none">
+                        <li>
+                            <a href="#">1 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">2 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">3 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">4 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">5 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">6 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">7 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">8 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">9 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">10 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">11 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">12 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">13 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">14 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">15 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">16 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">17 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">18 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">19 Lorem Ipsum</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">20 Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col btn-cols">
+                    <div class="bg-info head">
+                        Useful Links
+                    </div>
+                    <div class="px-2rem">
+                        <div class="row">
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Lorem
+                                </button>
+                            </div>
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Ipsum
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Lorem
+                                </button>
+                            </div>
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Ipsum
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Lorem
+                                </button>
+                            </div>
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Ipsum
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Lorem
+                                </button>
+                            </div>
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Ipsum
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Lorem
+                                </button>
+                            </div>
+                            <div class="col d-flex">
+                                <button type="button" class="btn btn-secondary">
+                                    Ipsum
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-info head">
+                        Upcoming Events
+                    </div>
+                    <ul class="scrollbox mx-2rem" style="list-style-type: none">
+                        <li>
+                            <a href="#">1 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">2 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">3 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">4 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">5 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">6 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">7 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">8 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">9 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">10 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">11 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">12 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">13 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">14 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">15 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">16 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">17 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">18 Lorem Ipsum</a>
+                        </li>
+                        <li>
+                            <a href="#">19 Lorem Ipsum</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">20 Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="bg-warning head">
+                        Faculty Achievements
+                    </div>
+                    <!-- Carousel -->
+                    <div class="caro2-outer px-2rem">
+                        <div class="caro2">
+                            <div id="carouselIndicators2" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="firstslide.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="secondslide.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="thirdslide.png" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mx-6rem px-0-75rem">
+            <div class="bg-danger head">
+                Our Mentors
+            </div>
+            <ul class="section px-2rem" style="list-style-type: none">
+                <li>
+                    <a href="#">1 Lorem Ipsum</a>
+                </li>
+                <li>
+                    <a href="#">2 Lorem Ipsum</a>
+                </li>
+                <li>
+                    <a href="#">3 Lorem Ipsum</a>
+                </li>
+                <li>
+                    <a href="#">4 Lorem Ipsum</a>
+                </li>
+                <li class="mb-2">
+                    <a href="#">5 Lorem Ipsum</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="mx-6rem px-0-75rem">
+            <div class="bg-primary head">
+                Other Links
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Lorem
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Ipsum
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Lorem
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Ipsum
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Lorem
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary">
+                        Ipsum
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="container mx-6rem">
+            <div class="row">
+                <div class="col">
+                    <div class="bg-warning head">
+                        Director's Note
+                    </div>
+                    <div>
+                        <p class="px-2rem">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <a href="#">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-info head">
+                        Motto, Vision, Mission & Objectives
+                    </div>
+                    <div class="scrollbox mx-2rem">
+                        <!-- Accordion -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Motto
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        <strong>Motto:</strong> Lorem Ipsum
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Vision
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <strong>Vision:</strong> Lorem Ipsum
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Mission
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <strong>Mission:</strong> Lorem Ipsum
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Objectives
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <strong>Objectives:</strong> Lorem Ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mx-6rem">
+            <div class="row">
+                <div class="col">
+                    <div class="bg-info head">
+                        Student Strength
+                    </div>
+                    <div class="scrollbox mx-2rem">
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    Total Students
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    <span class="badge text-bg-secondary">3654</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    Total UG
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    <span class="badge text-bg-secondary">3324</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    Total PG
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    <span class="badge text-bg-secondary">330</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    Total Boys
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    <span class="badge text-bg-secondary">1458</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    Total Girls
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    <span class="badge text-bg-secondary">2196</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-warning head">
+                        Student Achievements
+                    </div>
+                    <!-- Carousel -->
+                    <div class="caro2-outer px-2rem">
+                        <div class="caro2">
+                            <div id="carouselIndicators3" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="firstslide.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="secondslide.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="thirdslide.png" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mx-6rem px-0-75rem">
+            <div class="bg-primary head">
+                Latest Photographs
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide px-2rem" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="firstslide.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="secondslide.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="thirdslide.png" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container mx-6rem px-0-75rem">
+            <div class="bg-danger head">
+                Views of Alumni
+            </div>
+            <div class="row">
+                <div class="col px-2rem">
+                    <div id="carouselExampleSlidesOnly1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="firstslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="secondslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="thirdslide.png" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-2rem">
+                    <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="firstslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="secondslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="thirdslide.png" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-2rem">
+                    <div id="carouselExampleSlidesOnly3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="firstslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="secondslide.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="thirdslide.png" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <footer class="footer"> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col"> 
+                        <h2>Lorem Ipsum</h2> 
+                    </div> 
+                    <div class="col"> 
+                        <h5>About Us</h5> 
+                        <p> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       </p> 
+                    </div> 
+                    <div class="col"> 
+                        <h5>Contact Us</h5> 
+                        <ul class="list-unstyled"> 
+                            <li>Email: info@example.com</li> 
+                            <li>Phone: +1 1234567890</li> 
+                            <li>Address: San Francisco, CA, USA</li> 
+                        </ul> 
+                    </div> 
+                    <div class="col"> 
+                        <h5>Follow Us</h5> 
+                        <ul class="list-inline footer-links"> 
+                            <li class="list-inline-item"> 
+                                <a href="#"> 
+                                    <i class="fab fa-facebook"></i> 
+                                </a> 
+                            </li> 
+                            <li class="list-inline-item"> 
+                                <a href="#"> 
+                                    <i class="fab fa-twitter"></i> 
+                                </a> 
+                            </li> 
+                            <li class="list-inline-item"> 
+                                <a href="#"> 
+                                    <i class="fab fa-instagram"></i> 
+                                </a> 
+                            </li> 
+                            <li class="list-inline-item"> 
+                                <a href="#"> 
+                                    <i class="fab fa-linkedin"></i> 
+                                </a> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+                <hr> 
+                <div class="row"> 
+                    <div class="col"> 
+                        <p>© 2024 Lorem Ipsum. All rights reserved.</p> 
+                    </div> 
+                    <div class="col text-end"> 
+                        <ul class="list-inline footer-links"> 
+                            <li class="list-inline-item"> 
+                                <a href="#">Privacy Policy</a> 
+                            </li> 
+                            <li class="list-inline-item"> 
+                                <a href="#">Terms of Service</a> 
+                            </li> 
+                            <li class="list-inline-item"> 
+                                <a href="#">Sitemap</a> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </footer> 
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    padding-top: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.name {
+    padding: 1rem;
+}
+
+.logo2 {
+    padding: 0 1rem 1rem 1rem;
+    float: right;
+}
+
+#navbarNavDropdown {
+    justify-content: space-around;
+}
+
+.modal-btn {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caro-outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.caro {
+    width: 100%;
+}
+
+.container {
+    margin-top: 0rem;
+    width: auto;
+}
+
+.head {
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+}
+
+.scrollbox {
+    overflow: scroll;
+    height: 280px;
+    margin-bottom: 0rem;
+    overflow-x: hidden;
+}
+
+.scrollbox li {
+    margin-top: 0.5rem;
+}
+
+.scrollbox a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-cols button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+div[class~="bg-warning"] {
+    color: black;
+}
+
+.section li {
+    margin-top: 0.5rem;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.caro2-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.caro2 {
+    height: 280px;
+}
+
+.px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-0-75rem {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.mx-2rem{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: lightgray;
+    color: black; 
+    padding: 1rem 6rem;
+}
+
+.footer-links a { 
+    color: black; 
+    text-decoration: none; 
+    margin-right: 1rem;
+} 
