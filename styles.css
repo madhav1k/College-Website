@@ -162,6 +162,8 @@ footer {
     .navbar {
         margin-left: -0.25rem;
         margin-right: -0.25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
     }
 
     .row>* {
@@ -194,5 +196,9 @@ footer {
 
     footer {
         padding: 1rem 0.25rem;
+    }
+
+    #login {
+        margin-top: 0.5rem !important;
     }
 }
