@@ -67,16 +67,136 @@
                         <li>
                             <!-- Button trigger modal -->
                             <div class="d-flex w-100">
-                                <button type="button" class="btn modal-btn btn-success mt-0 mx-0" data-bs-toggle="modal" data-bs-target="#loginModal" id="login">
-                                    Login
-                                </button>
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-success dropdown-toggle" id="loginDropdown" data-bs-toggle="dropdown" aria-expanded="false">Login</button>
+                                    <ul class="dropdown-menu" aria-labelledby="loginDropdown" id="loginDropdownMenu">
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModalStudent">Student</a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModalAdmin">Admin</a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModalProfessor">Professor</a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModalTeam">Team</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                            <!-- Modal Student-->
+                            <div class="modal fade" id="loginModalStudent" tabindex="-1" aria-labelledby="loginModalStudentLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+                                        <h1 class="modal-title fs-5" id="loginModalStudentLabel">Student Login</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                                </div>
+                                                <br>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Stay signed in</label>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Don't have an account? <a href="#">Sign Up</a></label>
+                                                </div>
+                                                <br>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Admin-->
+                            <div class="modal fade" id="loginModalAdmin" tabindex="-1" aria-labelledby="loginModalAdminLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="loginModalAdminLabel">Admin Login</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                                </div>
+                                                <br>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Stay signed in</label>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Don't have an account? <a href="#">Sign Up</a></label>
+                                                </div>
+                                                <br>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Professor-->
+                            <div class="modal fade" id="loginModalProfessor" tabindex="-1" aria-labelledby="loginModalProfessorLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="loginModaProfessorLabel">Professor Login</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                                </div>
+                                                <br>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Stay signed in</label>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Don't have an account? <a href="#">Sign Up</a></label>
+                                                </div>
+                                                <br>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Team-->
+                            <div class="modal fade" id="loginModalTeam" tabindex="-1" aria-labelledby="loginModalTeamLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="loginModalTeamLabel">Team Login</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <form>
