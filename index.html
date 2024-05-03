@@ -64,6 +64,52 @@
                                 <li><a class="dropdown-item" href="#">Old Photo Gallery</a></li>
                             </ul>
                         </li>
+                        <li>
+                            <!-- Button trigger modal -->
+                            <div class="d-flex justify-content-center w-100">
+                                <button type="button" class="btn modal-btn btn-success mt-0" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                    Login
+                                </button>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                                </div>
+                                                <br>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Stay signed in</label>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Don't have an account? <a href="#">Sign Up</a></label>
+                                                </div>
+                                                <br>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -79,18 +125,18 @@
         <!-- Modal -->
         <div class="modal fade" id="latestNewsModal" tabindex="-1" aria-labelledby="latestNewsModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="latestNewsModalLabel">Latest News</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="latestNewsModalLabel">Latest News</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                ...
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
             </div>
         </div>
 
@@ -706,8 +752,8 @@
                     <div class="col pl-0-75rem pr-0-75rem"> 
                         <h5>Contact Us</h5> 
                         <ul class="list-unstyled"> 
-                            <li>Email: info@example.com</li> 
-                            <li>Phone: +1 1234567890</li> 
+                            <li>Email: info@harvard.edu</li> 
+                            <li>Phone: +1 617-495-1000</li> 
                             <li>Address: Cambridge, Massachusetts, United States</li> 
                         </ul> 
                     </div> 
